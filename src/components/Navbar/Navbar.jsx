@@ -32,7 +32,7 @@ const Navbar = () => {
             className="text-decoration-none ms-md-auto"
           >
             <Button
-              color={'purple.500'}
+              color={'teal.500'}
               bg={'black.900'}
               colorScheme={'black.900'}
               size="lg"
@@ -51,7 +51,7 @@ const Navbar = () => {
           bg={'#fff'}
           shadow="md"
         >
-          <Button colorScheme={'purple'}>
+          <Button colorScheme={'teal'}>
             <Link to="/connect-wallet" color="#000">
               Connect Wallet
             </Link>

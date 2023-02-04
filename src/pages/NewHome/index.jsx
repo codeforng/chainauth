@@ -57,7 +57,7 @@ const SectionOne = () => {
           >
             Learn More
           </Button>
-          <Button as={Link} colorScheme="purple" to="/wallets-validation">
+          <Button as={Link} colorScheme="teal" to="/wallets-validation">
             Resolve
           </Button>
         </ButtonGroup>
@@ -93,7 +93,7 @@ const FeatureSection = () => {
   return (
     <Box
       as={motion.div}
-      background={'purple.500'}
+      background={'teal.500'}
       className="items-center scroll-p-[24rem] py-2 md:py-4"
     >
       <SimpleGrid
